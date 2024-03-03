@@ -14,7 +14,7 @@
     "iosDev": "react-native run-ios --scheme 'Dev'",
     "iosStage": "react-native run-ios --scheme 'Stage'",
     "iosProd": "react-native run-ios --scheme 'Prod'",
-    "start": "react-native start",
+    "start": "node api.js && react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
